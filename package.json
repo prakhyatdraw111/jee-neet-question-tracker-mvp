@@ -1,0 +1,28 @@
+{
+  "name": "jee-study-mvp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@google/genai": "^2.22.0",
+    "dotenv": "^17.4.2",
+    "ejs": "^6.0.1",
+    "express": "^5.2.1",
+    "express-ejs-layouts": "^2.5.1",
+    "katex": "^0.18.7",
+    "mysql2": "^3.24.4",
+    "nodemon": "^3.1.14",
+    "react": "^19.2.8"
+  },
+  "engine": {
+    "node": "24.x"
+  }
+}
