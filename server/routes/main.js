@@ -85,7 +85,7 @@ router.post('/', async function(req, res) {
     {
 
         return ai.chats.create({model: "gemini-3.1-flash-lite", history: await getMsgs()})
-        .sendMessage({message: `Answer the question clearly. Bolden out the formulae. Do not use latex (and dont mention u r using latex) Message: ${msg}`})
+        .sendMessage({message: `Answer the question clearly. Bolden out the formulae. Do not use latex (and dont mention u r using latex). Politely respond that u can't answer irrelevant questions if non studies questions are asked. Message: ${msg}`})
         .then((resp) => {
 
             console.log("finished");  
